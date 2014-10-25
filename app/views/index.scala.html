@@ -1,7 +1,17 @@
 @(message: String)
 
-@main("Welcome to Play") {
+@import templates.primary._
+@import templates.secondary._
 
-    @play20.welcome(message)
-
+@main("Play Scala Tutorials") {
+	
+	<div class="container sections-wrapper">
+        <div class="row">
+            
+            @primarySection(message)
+            
+            @secondarySection(message)
+                
+        </div><!--//row-->
+    </div><!--//masonry-->
 }

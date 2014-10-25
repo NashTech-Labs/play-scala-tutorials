@@ -8,6 +8,11 @@ scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(jdbc, anorm, cache, ws)
 
+libraryDependencies ++= Seq(
+  "org.webjars"		%% 	"webjars-play" 						%	"2.3.0-2",
+  "org.webjars" 	%	"3rdwavemedia-themes-developer" 	% 	"1.21"
+)
+
 instrumentSettings
 
 ScoverageKeys.minimumCoverage := 70
