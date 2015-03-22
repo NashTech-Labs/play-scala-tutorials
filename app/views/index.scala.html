@@ -1,17 +1,10 @@
 @(message: String)
 
-@import templates.primary._
-@import templates.secondary._
-
 @main("Play Scala Tutorials") {
 	
-	<div class="container sections-wrapper">
+	<div class="container">
         <div class="row">
-            
-            @primarySection(message)
-            
-            @secondarySection(message)
-                
+            @message
         </div><!--//row-->
     </div><!--//masonry-->
 }
