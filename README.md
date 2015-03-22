@@ -9,7 +9,7 @@ In this repo we would set up the development environment with Play and Eclipse w
 ###Tutorials :-
 -----------------------------------------------------------------------
 * [Tutorial #1: Getting started with Play Framework 2.3.4](http://blog.knoldus.com/2014/10/04/tutorial-1/)
-* [Tutorial #2: Using WebJars, jQuery, Bootstrap & Bootswatch with Play application](http://blog.knoldus.com/2015/03/22/play-tutorial-2/)
+* [Tutorial #2: Using WebJars, jQuery, Bootstrap & Bootswatch with Play application](http://blog.knoldus.com/2015/03/23/play-tutorial-2/)
 
 -----------------------------------------------------------------------
 ###References :-
